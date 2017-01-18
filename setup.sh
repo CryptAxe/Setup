@@ -16,7 +16,7 @@ sudo apt-get install \
     konsole
 
 # Install vimrc
-git clone https://github.com/cryptaxe/vimrc && cd ./vimrc/install.sh && cd ..
+git clone https://github.com/cryptaxe/vimrc && cd ./vimrc && ./install.sh && cd ..
 
 # Install bitcoin deps
 sudo apt-get install \
