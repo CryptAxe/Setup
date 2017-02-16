@@ -14,7 +14,8 @@ sudo apt-get install \
     gedit \
     qtcreator \
     meld \
-    konsole
+    konsole \
+    redshift
 
 # Install vimrc
 git clone https://github.com/cryptaxe/vimrc && cd ./vimrc && ./install.sh && cd ..
