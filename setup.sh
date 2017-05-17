@@ -3,7 +3,7 @@
 # Update the system
 sudo apt-get update && sudo apt-get upgrade
 
-# Install packages
+# Install my packages
 sudo apt-get install \
     vim \
     git \
@@ -15,9 +15,18 @@ sudo apt-get install \
     qtcreator \
     meld \
     konsole \
-    redshift
+    redshift \
+    stopwatch \
+    vym \
+    git-cola \
+    gimp \
+    pidgin \
+    virtualbox \
+    aspell \
+    gnome-chess \
+    thunderbird
 
-# Install vimrc
+# Install my vimrc
 git clone https://github.com/cryptaxe/vimrc && cd ./vimrc && ./install.sh && cd ..
 
 # Install bitcoin deps
@@ -44,9 +53,8 @@ sudo apt-get install \
     protobuf-compiler \
     libqrencode-dev
 
-# Install compatible bdb
+# Install bitcoin compatible bdb from PPA
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
-
