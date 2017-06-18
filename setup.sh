@@ -5,53 +5,53 @@ sudo apt-get update && sudo apt-get upgrade
 
 # Install my packages
 sudo apt-get install \
-    vim \
-    git \
-    xclip \
-    gitk \
-    valgrind \
+    aspell \
     cppcheck \
     gedit \
-    qtcreator \
-    meld \
+    gimp \
+    gnome-chess \
+    git \
+    gitk \
+    git-cola \
     konsole \
+    meld \
+    pidgin \
+    qtcreator \
     redshift \
     stopwatch \
-    vym \
-    git-cola \
-    gimp \
-    pidgin \
+    thunderbird \
+    valgrind \
+    vim \
     virtualbox \
-    aspell \
-    gnome-chess \
-    thunderbird
+    vym \
+    xclip
 
 # Install my vimrc
 git clone https://github.com/cryptaxe/vimrc && cd ./vimrc && ./install.sh && cd ..
 
 # Install bitcoin deps
 sudo apt-get install \
-    build-essential \
-    libtool \
-    autotools-dev \
     automake \
-    pkg-config \
-    libssl-dev \
-    libevent-dev \
+    autotools-dev \
     bsdmainutils \
+    build-essential \
     libboost-all-dev \
-    libdb++-dev
+    libdb++-dev \
+    libevent-dev \
+    libssl-dev \
+    libtool \
+    pkg-config
 
 # Install bitcoin GUI deps
 sudo apt-get install \
-    libqt5gui5 \
+    libprotobuf-dev \
+    libqrencode-dev \
     libqt5core5a \
     libqt5dbus5 \
-    qttools5-dev \
-    qttools5-dev-tools \
-    libprotobuf-dev \
+    libqt5gui5 \
     protobuf-compiler \
-    libqrencode-dev
+    qttools5-dev \
+    qttools5-dev-tools
 
 # Install bitcoin compatible bdb from PPA
 sudo apt-get install software-properties-common
