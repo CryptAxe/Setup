@@ -40,7 +40,9 @@ sudo apt-get install \
     libevent-dev \
     libssl-dev \
     libtool \
-    pkg-config
+    pkg-config \
+    libminiupnpc-dev \
+    libzmq3-dev
 
 # Install bitcoin GUI deps
 sudo apt-get install \
