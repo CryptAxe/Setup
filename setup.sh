@@ -42,7 +42,8 @@ sudo apt-get install \
     libtool \
     pkg-config \
     libminiupnpc-dev \
-    libzmq3-dev
+    libzmq3-dev \
+    libsqlite3-dev
 
 # Install bitcoin GUI deps
 sudo apt-get install \
